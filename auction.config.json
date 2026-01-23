@@ -1,0 +1,33 @@
+{
+  "auction": {
+    "item": {
+      "title": "Limited Edition Item",
+      "description": "One exclusive item available to win.",
+      "image_url": "/images/item.jpg"
+    },
+    "guessing": {
+      "min_value": 0,
+      "max_value": 50000,
+      "allow_updates": false,
+      "tie_breaker": "earliest_submission"
+    },
+    "target": {
+      "value": null,
+      "hash_algorithm": "sha256",
+      "publish_hash": true
+    },
+    "timing": {
+      "deadline_utc": "2026-02-01T18:00:00Z"
+    }
+  },
+  "audio": {
+    "enabled": true,
+    "src": "/audio/preview.mp3",
+    "autoplay": false,
+    "loop": false
+  },
+  "ui": {
+    "confirmation_message": "Your entry has been submitted.",
+    "submission_closed_message": "Entries are now closed."
+  }
+}
